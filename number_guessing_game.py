@@ -38,7 +38,7 @@ def play_game():
             return a
         
 def main():
-    best_score = None #bs is the best score
+    best_score = None #the best score set as none
     print("Welcome to the Number Guessing Game!")
     while True:
         
@@ -65,5 +65,6 @@ def main():
             break
         else:
             print("Invalid choice. Please pick from options 1, 2 or 3.") #if the player chooses anything outside the option
+
 
 main() #calling the main function for the game
